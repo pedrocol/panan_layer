@@ -19,7 +19,9 @@ There are other realistic configurations in MOM6-exemples that use layer coords.
 
 ALE_COORDINATE_CONFIG = "HYBRID:hycom1_75_800m.nc,sigma2,FNC1:2,4000,4.5,.01"
 (FILE:lev.nc,interfaces=zw,FNC1:dz_min,H_total,power,precision)
+
 where sigma2 is
+
  sigma2 = 1010, 1014.3034, 1017.8088, 1020.843, 1023.5566, 1025.813, 
     1027.0275, 1027.9114, 1028.6422, 1029.2795, 1029.852, 1030.3762, 
     1030.8626, 1031.3183, 1031.7486, 1032.1572, 1032.5471, 1032.9207, 
